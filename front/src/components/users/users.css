@@ -1,0 +1,23 @@
+#alturaaa {
+  position: relative;
+  top: 50px;
+  width: 50%;
+  margin-bottom: 360px;
+}
+
+#boton:hover{
+  color: black;
+}
+
+.nada::before{
+  content: none !important;
+}
+
+.imagen{
+  width: 43px;
+    
+    width: 132px;
+    margin: 0px;
+    height: 150px;
+  
+}

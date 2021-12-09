@@ -1,0 +1,26 @@
+
+
+.img{
+    width: 100px;
+    
+}
+
+
+
+.izq{
+    margin-left: 70px;
+}
+
+#the{
+vertical-align: middle;
+height: 180px;
+}
+
+
+.tds{
+    vertical-align: middle !important ;
+}
+
+.invisible{
+    display: none;
+}

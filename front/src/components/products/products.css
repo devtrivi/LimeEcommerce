@@ -1,0 +1,161 @@
+html,
+body,
+header,
+.carousel {
+  height: 150vh;
+}
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .carousel {
+    height: 100vh;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+  html,
+  body,
+  header,
+  .carousel {
+    height: 100vh;
+  }
+}
+.view,
+body,
+html {
+  height: 100%;
+}
+.carousel {
+  height: 50%;
+}
+.carousel .carousel-inner,
+.carousel .carousel-inner .active,
+.carousel .carousel-inner .carousel-item {
+  height: 100%;
+}
+@media (max-width: 776px) {
+  .carousel {
+    height: 100%;
+  }
+}
+.page-footer {
+  background-color: #929fba;
+}
+
+#style {
+  background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/8-col/img%282%29.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#alto {
+  position: relative;
+  top: 50px;
+}
+
+#prod {
+  align-items: center;
+  display: flex;
+  height: 325px;
+  border-radius: 12px;
+}
+#card2 {
+  max-height: 100%;
+  padding: 25px;
+}
+
+.hola {
+  margin-top: -3px;
+  padding-left: 7px;
+  font-weight: lighter;
+  color: lightslategray;
+  font-family: Gill Sans, sans-serif;
+  font-size: 22px;
+}
+
+.val {
+  font-weight: bolder;
+  color: rgb(153, 126, 6);
+}
+
+.prodName {
+color: lightslategray;
+height: 108px;
+font-weight: lighter;
+text-decoration: none !important;
+text-decoration-line: none !important;
+
+}
+
+#sombra {
+  box-shadow: -1px 1px 17px 1px rgba(0, 0, 0, 0.27);
+  border-radius: 12px;
+}
+
+#sombra:hover {
+  transform: scale(1);
+  box-shadow: 3px 3px 25px black;
+  transition: 0.5s ease;
+}
+
+.imagen {
+  display: flex;
+
+  margin: 0 auto;
+
+  justify-content: center;
+}
+
+.proddd {
+  font-weight: lighter;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#imgCentrada {
+  padding-left: 20px;
+  padding-right: 25px;
+  max-height: 325px;
+}
+
+#cart {
+  position: absolute;
+  bottom: 0;
+  right: 0px;
+  padding: 10px;
+  border: none;
+  color: #6c757d;
+  font-size: 1.4rem;
+  border-radius: 0.5rem 0 0.5rem 0;
+  transform: translate(100%, 100%);
+}
+#cart:active{
+  position: absolute;
+  bottom: 15px;
+  font-size: 2.3rem;
+  color: rgb(53, 144, 53) !important;
+  transition: 0.1s ease !important;
+}
+
+#cart2 {
+  position: relative;
+  overflow: hidden;
+}
+
+#cart2:hover #cart {
+  transform: translate(0, 0);
+  transition: 0.5s ease;
+}
+#cart:hover {
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+.valoration{
+  position: relative;
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+  bottom: 20px
+}
